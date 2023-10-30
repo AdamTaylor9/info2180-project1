@@ -232,6 +232,10 @@ article a{
     color: #ffff;
 }
 
+.newsletter .message{
+    margin-top: 10px;
+}
+
 /* FOOTER */
 
 footer{
