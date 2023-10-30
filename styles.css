@@ -96,13 +96,13 @@ header .container ul li a:hover {
 }
 
 .learn-about .container .cards{
-    width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
     justify-content: center;
 }
 
 .learn-about .container .card{
-    flex: 1; 
     padding: 0 10px;
     margin: 5px;
     background-color: #ffff;
