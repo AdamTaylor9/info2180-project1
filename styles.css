@@ -86,6 +86,10 @@ header .container ul li a:hover {
 
 /* LEARN ABOUT */
 
+.learn-about .container{
+    padding-bottom: 20px;
+}
+
 .learn-about .container h2{
     font-size: 24px;
     color:#48BB78;
@@ -99,13 +103,13 @@ header .container ul li a:hover {
 
 .learn-about .container .card{
     flex: 1; 
-    /* max-width: 250px; */
     padding: 0 10px;
     margin: 5px;
     background-color: #ffff;
     border: 1px solid #E2E8F0;
     border-radius: 5px;
     overflow: hidden;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
 }
 
 .learn-about .container .card img{
@@ -117,4 +121,125 @@ header .container ul li a:hover {
 .learn-about .container .card h3{
     color: #48BB78;
     font-size: 21px;
+}
+
+/* COVID TESTING */
+
+.testing{
+    background-color: #4A5568;
+    color: #ffff;
+}
+
+.testing .container{
+    padding: 100px 0px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.testing .container .testing-desciption{
+    width: 600px;
+}
+
+.testing .container .testing-desciption h2{
+    font-size: 24px;
+}
+
+.testing .cta{
+    background-color: #48BB78;
+    border-radius: 5px;
+    margin: auto;
+    padding: 15px 40px;
+}
+
+.testing .cta a{
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+}
+
+/* STORIES */
+
+.stories .container{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.stories article{
+    display: flex;
+    align-items: center;
+}
+
+.stories .container h2{
+    font-size: 21px;
+    color: #5A67D8;
+}
+
+.stories .container h3{
+    font-size: 18px;
+}
+
+article img{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.stories .container .article-body{
+    padding-left: 40px;
+}
+
+article a{
+    text-decoration: none;
+    color: #5A67D8;
+
+}
+
+/* NEWSLETTER */
+
+.newsletter{
+    background-color: #48BB78;
+}
+
+.newsletter .container{
+    background-color: transparent;
+    color: #ffff;
+    text-align: center;
+    padding: 40px 0 58px 0;
+}
+
+.newsletter .container p{
+    text-align: left;
+    margin: 18px 220px;
+}
+
+.newsletter .form-group{
+    display: inline;
+}
+
+.newsletter .form-group input{
+    border-radius: 5px;
+    padding: 15px 40px;
+    border:none;
+}
+
+.newsletter button{
+    border-radius: 5px;
+    padding: 15px 40px;
+    border:none;
+    background-color:#5A67D8;
+    color: #ffff;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #4A5568;
+    color: #ffff;
+    padding: 10px;
+}
+
+footer .container{
+    background-color: transparent;
 }
